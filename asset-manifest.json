@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/darf_react/static/css/main.97daec1e.css",
+    "main.js": "/darf_react/static/js/main.28ad19b4.js",
+    "static/media/result3.png": "/darf_react/static/media/result3.d1acf930088b1acc01ba.png",
+    "static/media/result4.png": "/darf_react/static/media/result4.14a1e42f6c40bea499db.png",
+    "static/media/result5.jpg": "/darf_react/static/media/result5.f3afd861dd55ae3a3ac1.jpg",
+    "static/media/result1.jpg": "/darf_react/static/media/result1.96346f76bc6b1a143930.jpg",
+    "static/media/result2.jpg": "/darf_react/static/media/result2.18596c8865319fa3e0f4.jpg",
+    "static/media/animation.png": "/darf_react/static/media/animation.e2217c7136890bce9b55.png",
+    "static/media/userFB.png": "/darf_react/static/media/userFB.557587208eb9e232f2ca.png",
+    "index.html": "/darf_react/index.html",
+    "main.97daec1e.css.map": "/darf_react/static/css/main.97daec1e.css.map",
+    "main.28ad19b4.js.map": "/darf_react/static/js/main.28ad19b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97daec1e.css",
+    "static/js/main.28ad19b4.js"
+  ]
+}
