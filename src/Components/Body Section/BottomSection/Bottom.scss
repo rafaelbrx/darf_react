@@ -1,0 +1,98 @@
+:root{
+    --PurpleColor: #c598f8;
+    --lightPurpleColor: #9a4df1;
+    --darkPurpleColor: #1a0856;
+    --textColor: #150461;
+    --h1Color: #100133;
+    --cardColor: #6f44a7;
+    --whiteColor: hsl(0, 0%, 100%);
+    --grayText: rgb(190, 190, 190);
+    --inputColor: hsl(224, 39%, 80%);
+
+    --h1FontSize: 2.5rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: .938rem;
+    --smallFontSize: .813rem;
+    --smallestFontSize: .75rem;
+}
+
+.Bottom{
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+
+    .graphDiv, .scheduleDiv{
+        flex-basis: 50%;
+
+        .title{
+            font-weight: 700;
+            color: var(--textColor);
+            display: block;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .scheduleDiv{
+        width: 100%;
+
+        .singleTask{
+            gap: .5rem;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin: 2rem 0;
+
+            .imgDiv{
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+                border: 1px solid rgb(217, 215, 215);
+                justify-content: center;
+                padding: .5rem;
+                margin-right: 1rem;
+
+                img{
+                    width: 20px;
+
+                }
+            }
+
+            .taskInfo{
+                flex: 1;
+         
+                .task{
+                    font-weight: 700;
+                    font-size: var(--h3FontSize);
+                    display: block;
+                    gap: .2rem;
+                    color: var(--darkPurpleColor);
+                }
+
+                .status{
+                    font-size: var(--smallFontSize);
+                    color: var(--darkPurpleColor);
+                    font-weight: 500;
+                    opacity: .9;
+                }
+            }
+
+            .time{
+                font-weight: 600;
+                color: var(--darkPurpleColor);
+                opacity: .8;
+            }
+        }
+
+        .btn{
+            background: var(--darkPurpleColor);
+            color: var(--PurpleColor);
+            border-radius: 3rem;
+            text-align: center;
+            font-weight: 500;
+
+            &:hover{
+                background: var(--cardColor);
+            }
+        }
+    }
+}

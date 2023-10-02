@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease;
+}
+
+:root{
+    --PurpleColor: #c598f8;
+    --lightPurpleColor: #9a4df1;
+    --darkPurpleColor: #1a0856;
+    --textColor: #150461;
+    --h1Color: #100133;
+    --cardColor: #6f44a7;
+    --whiteColor: hsl(0, 0%, 100%);
+    --grayText: rgb(190, 190, 190);
+    --inputColor: hsl(224, 39%, 80%);
+
+    --h1FontSize: 2.5rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: .938rem;
+    --smallFontSize: .813rem;
+    --smallestFontSize: .75rem;
+}
+
+html{
+    font-size: 90%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.icon{
+    font-size: var(--h2FontSize);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--darkPurpleColor);
+    padding: .8rem 1 rem;
+    font-weight: 600;
+    color: var(--textColor);
+}
+
+.btn .icon{
+    margin-left: .5rem;
+}
+
+.btn:hover{
+    background: rgb(90, 73, 240);
+    color: var(--darkPurpleColor);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 95hv;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem 1rem;
+    overflow: hidden;
+}
