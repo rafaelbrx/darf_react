@@ -46,7 +46,7 @@ const Bottom = () => {
     <div className='Bottom flex'> 
 
       <div className="graphDiv">
-        <span className="title">Todas Atividaes (Gráfico)</span>
+        <span className="title">Todas Atividades (Gráfico)</span>
 
         <Chart
           options = {state.options}
